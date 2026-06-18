@@ -6,20 +6,29 @@
   font-variation-settings: "wdth" 100;
 }
 /* shared styles */
+header {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+}
+
 .text-primary {
   color: #fd6e0a;
 }
-.dark-2{
-    color: #474747;
+.dark-2 {
+  color: #474747;
 }
-.btn-primary{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    background: #FD6E0A;
-    padding: 18px 35px;
-    border-radius: 5px;
-    border: none;
+.dark-3 {
+  color: #757575;
+}
+.btn-primary {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background: #fd6e0a;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
 }
 /* navbar */
 nav {
@@ -34,18 +43,48 @@ nav {
   font-size: 45px;
 }
 
-nav ul{
-    display: flex;
-    align-items: center;
-    
+nav ul {
+  display: flex;
+  align-items: center;
 }
-nav ul li{
-    margin-left: 50px;
-    list-style: none;
+nav ul li {
+  margin-left: 50px;
+  list-style: none;
 }
 nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: regular;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: regular;
 }
 
+/* banner============================== */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 0 200px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 18px;
+  font-weight: regular;
+  margin: 20px 0 30px 0;
+}
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+.banner-portfolio-img {
+  width: 580px;
+}
